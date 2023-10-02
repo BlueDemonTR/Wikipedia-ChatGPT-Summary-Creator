@@ -1,0 +1,17 @@
+{
+  "name": "WikipediaSummaryAi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -r esm-wallaby index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "esm-wallaby": "^3.2.26",
+    "nodemon": "^3.0.1",
+    "openai": "^4.11.0",
+    "readline-promise": "^1.0.5",
+    "wikijs": "^6.4.1"
+  }
+}
